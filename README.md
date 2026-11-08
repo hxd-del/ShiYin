@@ -35,8 +35,6 @@ python -m shiyin
 - 便携版：在程序目录放 `portable.flag`，数据写到程序目录下的 `data\`
 - 可用环境变量 `SHIYIN_DATA_DIR` 指定独立数据目录（测试时常用）
 
-数据库、日志、下载的音频、封面/歌词、用户配置都属于运行时数据，已在 `.gitignore` 中排除，不要提交到仓库。
-
 ## 目录结构
 
 ```text
@@ -56,34 +54,6 @@ scripts/                白名单生成、烟测脚本
 packaging/              PyInstaller / Inno Setup / 便携包脚本
 tests/                  单元测试
 ```
-
-## 测试
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s tests -p "test_core.py"
-.\.venv\Scripts\python.exe scripts\smoke_ui.py
-.\.venv\Scripts\python.exe scripts\smoke_audio.py
-```
-
-需要联网的搜索联调：
-
-```powershell
-.\.venv\Scripts\python.exe scripts\smoke_search.py 晴天
-```
-
-## 打包
-
-```powershell
-pwsh packaging\build.ps1
-```
-
-常用参数：
-
-```powershell
-pwsh packaging\build.ps1 -SkipInstaller -SkipPortable   # 只出 dist\ShiYin\
-```
-
-`dist\`、`build\`、`.venv\` 都是构建产物，不提交到 Git；安装包、便携包和发布用的压缩包请放到 GitHub Releases。
 
 ## 许可
 
