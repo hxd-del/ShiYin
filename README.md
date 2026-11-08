@@ -20,8 +20,8 @@
 ## 快速开始
 
 ```powershell
-git clone https://github.com/<your-name>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/hxd-del/ShiYin.git
+cd ShiYin
 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
