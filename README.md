@@ -60,4 +60,3 @@ tests/                  单元测试
 - 本仓库包含的上游 `musicdl` 采用 **PolyForm Noncommercial License 1.0.0**，仅限非商业用途。
 - 上游许可证全文：`third_party/musicdl/LICENSE`
 - 修改与分发说明：`THIRD_PARTY_NOTICES.md`
-- 本仓库自有代码的许可证尚未指定；公开前请根据发布意图补充根目录 `LICENSE`。
