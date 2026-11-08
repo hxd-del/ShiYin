@@ -1,0 +1,83 @@
+{
+  "whitelist": {
+    "mainland": [
+      "QQMusicClient",
+      "NeteaseMusicClient",
+      "KugouMusicClient",
+      "KuwoMusicClient",
+      "MiguMusicClient",
+      "QianqianMusicClient",
+      "SodaMusicClient",
+      "BilibiliMusicClient",
+      "BodianMusicClient",
+      "FiveSingMusicClient",
+      "StreetVoiceMusicClient",
+      "MOOVMusicClient"
+    ],
+    "aggregator": [
+      "GDStudioMusicClient",
+      "JBSouMusicClient",
+      "TuneHubMusicClient",
+      "XiaoBaiMusicClient",
+      "MyFreeMP3MusicClient"
+    ],
+    "radio": [
+      "XimalayaMusicClient",
+      "LizhiMusicClient",
+      "QingtingMusicClient",
+      "LRTSMusicClient",
+      "ITunesMusicClient"
+    ],
+    "scraper": [
+      "MituMusicClient",
+      "BuguyyMusicClient",
+      "GequbaoMusicClient",
+      "YinyuedaoMusicClient",
+      "FangpiMusicClient",
+      "GequhaiMusicClient",
+      "HTQYYMusicClient",
+      "TwoT58MusicClient",
+      "YinyuekuMusicClient",
+      "GequkeMusicClient",
+      "MGMP3MusicClient",
+      "LeedodoMusicClient",
+      "SgogoMusicClient",
+      "XMFWAVMusicClient"
+    ]
+  },
+  "enabled_default": [
+    "QQMusicClient",
+    "NeteaseMusicClient",
+    "KugouMusicClient",
+    "KuwoMusicClient",
+    "MiguMusicClient",
+    "QianqianMusicClient",
+    "SodaMusicClient",
+    "BilibiliMusicClient",
+    "BodianMusicClient",
+    "FiveSingMusicClient"
+  ],
+  "excluded": [
+    "AppleMusicClient",
+    "SoundCloudMusicClient",
+    "TIDALMusicClient",
+    "QobuzMusicClient",
+    "SpotifyMusicClient",
+    "DeezerMusicClient",
+    "YouTubeMusicClient",
+    "JooxMusicClient",
+    "JioSaavnMusicClient",
+    "FMAMusicClient",
+    "JamendoMusicClient",
+    "AudiusMusicClient",
+    "CCMixterMusicClient",
+    "OpenGameArtMusicClient",
+    "SunoMusicClient",
+    "WikimediaCommonsMusicClient",
+    "XiagebaMusicClient",
+    "FiveSongMusicClient",
+    "KKWSMusicClient",
+    "HeishanMusicClient",
+    "MP3JuiceMusicClient"
+  ]
+}

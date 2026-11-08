@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build / packaging outputs
+build/
+build_patch/
+dist/
+dist_patch/
+*.exe
+*.msi
+*.7z
+*.zip
+*.tar.gz
+
+# Runtime data, logs and local databases
+data/
+logs/
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.db.bak-*
+*.db.legacy-bak-*
+*.log
+*.dmp
+crash-*.txt
+
+# Local media / cache
+*.part
+*.tmp
+*.flac
+*.mp3
+*.m4a
+*.wav
+*.lrc
+
+# IDE / OS
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+config.local.json

@@ -1,0 +1,35 @@
+# 拾音 ShiYin 运行依赖（打包时按此安装）
+# 注意：QtMultimedia 在 PySide6-Addons 中，Essentials 不含音频模块
+PySide6-Essentials==6.12.0
+PySide6-Addons==6.12.0
+
+# 上游 musicdl 依赖
+requests>=2.31
+rich>=13.7
+fake-useragent>=1.5
+pathvalidate>=3.0
+mutagen>=1.47
+orjson>=3.10
+json-repair>=0.25
+pycryptodomex>=3.20
+# vendor 里的 ximalaya 等模块写的是 `from Crypto.Cipher import AES`，
+# pycryptodomex 只提供 Cryptodome，源码直跑会 ModuleNotFoundError，必须补这个
+pycryptodome>=3.20
+cryptography>=42
+brotli>=1.1
+m3u8>=3.6
+tinytag>=1.10
+filetype>=1.2
+puremagic>=1.20
+beautifulsoup4>=4.12
+lxml>=5.2
+websocket-client>=1.7
+platformdirs>=4.2
+curl-cffi>=0.7
+tabulate>=0.9
+emoji>=2.10
+bleach>=6.1
+prettytable>=3.10
+prompt-toolkit>=3.0
+click>=8.1
+pillow>=10.3
