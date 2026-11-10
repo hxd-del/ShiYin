@@ -60,3 +60,13 @@ tests/                  单元测试
 - 本仓库包含的上游 `musicdl` 采用 **PolyForm Noncommercial License 1.0.0**，仅限非商业用途。
 - 上游许可证全文：`third_party/musicdl/LICENSE`
 - 修改与分发说明：`THIRD_PARTY_NOTICES.md`
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=hxd-del%2Fshiyin&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hxd-del/shiyin&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=hxd-del/shiyin&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hxd-del/shiyin&type=date&legend=top-left" />
+ </picture>
+</a>
